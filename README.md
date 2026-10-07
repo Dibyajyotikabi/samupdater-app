@@ -85,7 +85,14 @@ The plugin lives in `wordpress-plugin/samupdater-app-api`. It adds one read-only
 GET /wp-json/samupdater-app/v1/catalog
 ```
 
-The response holds the device list, beta programs, upcoming releases and the CSC suggestions shown in the device picker.
+The catalog holds the things Samsung's servers don't tell the app:
+
+- Devices: each model's name, the Android version it launched with and how many OS upgrades it gets. The security update tier and how long security updates are promised are optional. Some models, like the Galaxy A-series, don't list a tier yet.
+- Beta programs: the One UI beta status for each model family, the latest beta build and the countries it runs in.
+- Upcoming: major One UI releases that are on the way, with their stage and a link.
+- CSC suggestions: the region codes shown in the device picker.
+
+The plugin needs WordPress 6.0 or newer and PHP 7.4 or newer. It's licensed under GPL-2.0-or-later.
 
 To install it:
 
@@ -101,7 +108,15 @@ Responses carry `Cache-Control: public, max-age=900`, so a page cache or CDN can
 add_filter( 'samupdater_app_api_rate_limit', fn() => 120 ); // 0 turns the limit off
 ```
 
-Firmware lookups don't go through the plugin. The app talks to Samsung's update servers directly.
+Firmware lookups don't go through the plugin. The app talks to Samsung's update servers directly. The app also keeps a copy of the catalog, so it still works when samupdater.com can't be reached.
+
+## Look and feel
+
+Body text uses your phone's system font, so the app matches the rest of your phone. Headings are bold, and labels are a little heavier.
+
+Build numbers use a monospace font. Every character takes the same width, so `S938BXXU4BYJ2` is easy to read and compare letter by letter.
+
+The app doesn't ship any font files. It uses the fonts already on your phone.
 
 ## Build from source
 
