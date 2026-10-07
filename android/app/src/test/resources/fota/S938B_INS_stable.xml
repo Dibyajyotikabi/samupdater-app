@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<versioninfo>
+	<url>https://fota-cloud-dn.ospserver.net/firmware/</url>
+	<firmware>
+		<model>SM-S938B</model>
+		<cc>INS</cc>
+		<version>
+			<latest o="17">S938BXXUCDZIF/S938BOXMCDZIF/S938BXXUCDZIF</latest>
+			<upgrade>
+				<value rcount='5' fwsize='909153809'>S938BXXS1AYC2/S938BOXM1AYC2/S938BXXS1AYC2</value>
+				<value rcount='5' fwsize='978050897'>S938BXXU1AYA1/S938BOXM1AYA1/S938BXXU1AYA1</value>
+				<value rcount='3' fwsize='548893572'>S938BXXS8BZC1/S938BOXM8BZC1/S938BXXS8BZB5</value>
+				<value rcount='3' fwsize='591373571'>S938BXXS8BZB5/S938BOXM8BZB5/S938BXXS8BZB5</value>
+				<value rcount='3' fwsize='648002419'>S938BXXU5BYI3/S938BOXM5BYI3/S938BXXU5BYI3</value>
+				<value rcount='3' fwsize='652700666'>S938BXXS6BYIF/S938BOXM6BYIF/S938BXXS6BYIF</value>
+				<value rcount='2' fwsize='4476511363'>S938BXXS9BZCH/S938BOXM9BZCH/S938BXXS9BZCH</value>
+				<value rcount='3' fwsize='597924567'>S938BXXS7BYKS/S938BOXM7BYKS/S938BXXS7BYKS</value>
+				<value rcount='5' fwsize='909896058'>S938BXXU1AYB4/S938BOXM1AYB4/S938BXXU1AYB4</value>
+				<value rcount='5' fwsize='577515104'>S938BXXS4AYF2/S938BOXM4AYF2/S938BXXS4AYF2</value>
+				<value rcount='1' fwsize='945429661'>S938BXXU9CZDP/S938BOXM9CZDP/S938BXXU9CZDP</value>
+				<value rcount='3' fwsize='647021515'>S938BXXS7BYK3/S938BOXM7BYK3/S938BXXS7BYK3</value>
+				<value rcount='5' fwsize='603417579'>S938BXXS3AYDA/S938BOXM3AYDA/S938BXXS3AYDA</value>
+				<value rcount='5' fwsize='569520301'>S938BXXS5AYF6/S938BOXM5AYF6/S938BXXS5AYF6</value>
+				<value rcount='1' fwsize='563865078'>S938BXXSBCZG3/S938BOXMBCZG3/S938BXXSBCZG3</value>
+				<value rcount='1' fwsize='577946775'>S938BXXUACZF1/S938BOXMACZF1/S938BXXUACZF1</value>
+				<value rcount='3' fwsize='596846576'>S938BXXS7BYLR/S938BOXM7BYLR/S938BXXS7BYLR</value>
+				<value rcount='5' fwsize='717090320'>S938BXXU2AYD9/S938BOXM2AYD9/S938BXXU2AYD9</value>
+				<value rcount='4' fwsize='4188039853'>S938BXXS5AYG4/S938BOXM5AYG4/S938BXXS5AYG4</value>
+				<value rcount='1' fwsize='957924143'>S938BXXS9CZE1/S938BOXM9CZE1/S938BXXS9CZE1</value>
+			</upgrade>
+		</version>
+	</firmware>
+	<polling>
+		<period>1</period>
+		<time>08</time>
+		<range>23</range>
+	</polling>
+	<ActiveDeviceInfo>
+		<CycleOfDeviceHeartbeat>14</CycleOfDeviceHeartbeat>
+		<ServiceURL>https://ifota-apis.samsungdm.com/device/fumo/deviceheartbeat</ServiceURL>
+	</ActiveDeviceInfo>
+	<WiFiConnectedPollingInfo>
+		<Cycle></Cycle>
+		<Activated>FALSE</Activated>
+	</WiFiConnectedPollingInfo>
+</versioninfo>

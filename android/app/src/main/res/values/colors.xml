@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="splash_background">#FFF2F2F5</color>
+    <!-- Brand gradient for the launcher icon and the in-app logo. Same values as OneUiPalette.HeroStart and HeroEnd. -->
+    <color name="brand_gradient_start">#FF3A6BF0</color>
+    <color name="brand_gradient_end">#FF0F1A63</color>
+    <color name="launcher_foreground">#FFFFFFFF</color>
+</resources>

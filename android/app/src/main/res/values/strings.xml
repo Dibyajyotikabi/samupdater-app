@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sam Updater</string>
+    <string name="widget_label">Firmware status</string>
+    <string name="widget_description">Your installed build next to the latest one</string>
+    <string name="channel_stable">Stable updates</string>
+    <string name="channel_beta">One UI beta</string>
+    <string name="channel_test">Test builds</string>
+    <string name="notif_stable_title">New update for %s</string>
+    <string name="notif_beta_title">New One UI beta for %s</string>
+    <string name="notif_test_title">New test build spotted for %s</string>
+</resources>

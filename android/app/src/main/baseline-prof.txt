@@ -1,0 +1,4 @@
+# Precompile the app's own code at install time so cold start and first scroll skip the JIT.
+# Compose, Navigation and the other AndroidX libraries ship their own profiles.
+HSPLcom/samupdater/app/**;->**(**)**
+Lcom/samupdater/app/**;

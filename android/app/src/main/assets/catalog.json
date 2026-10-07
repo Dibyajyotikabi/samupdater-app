@@ -1,0 +1,301 @@
+{
+ "updatedAt": null,
+ "devices": [
+  {
+   "modelPrefix": "SM-S938",
+   "name": "Galaxy S25 Ultra",
+   "launchAndroid": 15,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S936",
+   "name": "Galaxy S25+",
+   "launchAndroid": 15,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S931",
+   "name": "Galaxy S25",
+   "launchAndroid": 15,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S937",
+   "name": "Galaxy S25 Edge",
+   "launchAndroid": 15,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S731",
+   "name": "Galaxy S25 FE",
+   "launchAndroid": 16,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S928",
+   "name": "Galaxy S24 Ultra",
+   "launchAndroid": 14,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S926",
+   "name": "Galaxy S24+",
+   "launchAndroid": 14,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S921",
+   "name": "Galaxy S24",
+   "launchAndroid": 14,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S721",
+   "name": "Galaxy S24 FE",
+   "launchAndroid": 14,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S918",
+   "name": "Galaxy S23 Ultra",
+   "launchAndroid": 13,
+   "osUpgrades": 4,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S916",
+   "name": "Galaxy S23+",
+   "launchAndroid": 13,
+   "osUpgrades": 4,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S911",
+   "name": "Galaxy S23",
+   "launchAndroid": 13,
+   "osUpgrades": 4,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-S711",
+   "name": "Galaxy S23 FE",
+   "launchAndroid": 13,
+   "osUpgrades": 4,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-F966",
+   "name": "Galaxy Z Fold7",
+   "launchAndroid": 16,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-F766",
+   "name": "Galaxy Z Flip7",
+   "launchAndroid": 16,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-F956",
+   "name": "Galaxy Z Fold6",
+   "launchAndroid": 14,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-F741",
+   "name": "Galaxy Z Flip6",
+   "launchAndroid": 14,
+   "osUpgrades": 7,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-F946",
+   "name": "Galaxy Z Fold5",
+   "launchAndroid": 13,
+   "osUpgrades": 4,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-F731",
+   "name": "Galaxy Z Flip5",
+   "launchAndroid": 13,
+   "osUpgrades": 4,
+   "securityTier": "Monthly"
+  },
+  {
+   "modelPrefix": "SM-A566",
+   "name": "Galaxy A56 5G",
+   "launchAndroid": 15,
+   "osUpgrades": 6,
+   "securityTier": ""
+  },
+  {
+   "modelPrefix": "SM-A366",
+   "name": "Galaxy A36 5G",
+   "launchAndroid": 15,
+   "osUpgrades": 6,
+   "securityTier": ""
+  },
+  {
+   "modelPrefix": "SM-A266",
+   "name": "Galaxy A26 5G",
+   "launchAndroid": 15,
+   "osUpgrades": 6,
+   "securityTier": ""
+  },
+  {
+   "modelPrefix": "SM-A556",
+   "name": "Galaxy A55 5G",
+   "launchAndroid": 14,
+   "osUpgrades": 4,
+   "securityTier": ""
+  },
+  {
+   "modelPrefix": "SM-A356",
+   "name": "Galaxy A35 5G",
+   "launchAndroid": 14,
+   "osUpgrades": 4,
+   "securityTier": ""
+  }
+ ],
+ "betaPrograms": [],
+ "upcoming": [],
+ "cscSuggestions": [
+  {
+   "code": "EUX",
+   "country": "Europe (multi-CSC)"
+  },
+  {
+   "code": "DBT",
+   "country": "Germany"
+  },
+  {
+   "code": "BTU",
+   "country": "United Kingdom"
+  },
+  {
+   "code": "XEF",
+   "country": "France"
+  },
+  {
+   "code": "ITV",
+   "country": "Italy"
+  },
+  {
+   "code": "PHE",
+   "country": "Spain"
+  },
+  {
+   "code": "XEO",
+   "country": "Poland"
+  },
+  {
+   "code": "INS",
+   "country": "India"
+  },
+  {
+   "code": "XSA",
+   "country": "Australia"
+  },
+  {
+   "code": "NZC",
+   "country": "New Zealand"
+  },
+  {
+   "code": "XME",
+   "country": "Malaysia"
+  },
+  {
+   "code": "XSP",
+   "country": "Singapore"
+  },
+  {
+   "code": "THL",
+   "country": "Thailand"
+  },
+  {
+   "code": "XID",
+   "country": "Indonesia"
+  },
+  {
+   "code": "XXV",
+   "country": "Vietnam"
+  },
+  {
+   "code": "XTC",
+   "country": "Philippines"
+  },
+  {
+   "code": "TGY",
+   "country": "Hong Kong"
+  },
+  {
+   "code": "BRI",
+   "country": "Taiwan"
+  },
+  {
+   "code": "KOO",
+   "country": "South Korea"
+  },
+  {
+   "code": "CHC",
+   "country": "China"
+  },
+  {
+   "code": "ZTO",
+   "country": "Brazil"
+  },
+  {
+   "code": "MXO",
+   "country": "Mexico"
+  },
+  {
+   "code": "XAC",
+   "country": "Canada"
+  },
+  {
+   "code": "XAA",
+   "country": "USA unlocked"
+  },
+  {
+   "code": "TMB",
+   "country": "T-Mobile US"
+  },
+  {
+   "code": "VZW",
+   "country": "Verizon"
+  },
+  {
+   "code": "ATT",
+   "country": "AT&T"
+  },
+  {
+   "code": "XFE",
+   "country": "South Africa"
+  },
+  {
+   "code": "XSG",
+   "country": "United Arab Emirates"
+  },
+  {
+   "code": "TUR",
+   "country": "Turkey"
+  },
+  {
+   "code": "ILO",
+   "country": "Israel"
+  }
+ ]
+}
