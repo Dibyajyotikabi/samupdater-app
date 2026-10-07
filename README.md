@@ -6,7 +6,7 @@ Sam Updater is a free Android app that tells you when a new firmware build is ou
 
 [Download the latest APK](https://github.com/Dibyajyotikabi/samupdater-app/releases/latest)
 
-This repo also has a small WordPress plugin. It serves the app a catalog of models, beta programs and upcoming releases, so the list can change without a new app release. More guides and trackers live on [samupdater.com](https://samupdater.com/).
+More guides and trackers live on [samupdater.com](https://samupdater.com/).
 
 ## Screenshots
 
@@ -77,39 +77,6 @@ Requirements:
 
 The app doesn't install firmware. It only tells you what's out there. To update your phone, use Settings > Software update > Download and install on the phone itself.
 
-## WordPress plugin
-
-The plugin lives in `wordpress-plugin/samupdater-app-api`. It adds one read-only endpoint to samupdater.com:
-
-```
-GET /wp-json/samupdater-app/v1/catalog
-```
-
-The catalog holds the things Samsung's servers don't tell the app:
-
-- Devices: each model's name, the Android version it launched with and how many OS upgrades it gets. The security update tier and how long security updates are promised are optional. Some models, like the Galaxy A-series, don't list a tier yet.
-- Beta programs: the One UI beta status for each model family, the latest beta build and the countries it runs in.
-- Upcoming: major One UI releases that are on the way, with their stage and a link.
-- CSC suggestions: the region codes shown in the device picker.
-
-The plugin needs WordPress 6.0 or newer and PHP 7.4 or newer. It's licensed under GPL-2.0-or-later.
-
-To install it:
-
-1. Zip the `samupdater-app-api` folder, leaving out the `tests` folder.
-2. In WordPress, go to Plugins > Add New > Upload Plugin and upload the zip.
-3. Activate it. The catalog is seeded from `data/catalog-seed.json`.
-4. Edit the catalog under Settings > Sam Updater App. Every save is validated first, so a typo can't break the app. If something is wrong, the page lists the problems and keeps your text in the box.
-5. Open `https://samupdater.com/wp-json/samupdater-app/v1/catalog` to check that it works.
-
-Responses carry `Cache-Control: public, max-age=900`, so a page cache or CDN can serve them. Each IP gets 60 requests a minute. The limit counts the connecting address, so if your site sits behind a proxy or CDN, many visitors can share one address. In that case, raise the limit with a filter:
-
-```php
-add_filter( 'samupdater_app_api_rate_limit', fn() => 120 ); // 0 turns the limit off
-```
-
-Firmware lookups don't go through the plugin. The app talks to Samsung's update servers directly. The app also keeps a copy of the catalog, so it still works when samupdater.com can't be reached.
-
 ## Look and feel
 
 Body text uses your phone's system font, so the app matches the rest of your phone. Headings are bold, and labels are a little heavier.
@@ -134,7 +101,6 @@ A release build is signed only if you provide a signing config. The build reads 
 ## Project layout
 
 - `android/` is the Android app, written in Kotlin with Jetpack Compose and Material 3.
-- `wordpress-plugin/` holds the catalog plugin for WordPress.
 - `screenshots/` has the images used in this README.
 
 ## Good to know
@@ -143,6 +109,6 @@ Sam Updater is an independent project. It isn't made by, endorsed by or affiliat
 
 ## License
 
-The WordPress plugin is licensed under GPL-2.0-or-later, as stated in its `readme.txt`. The Android app doesn't have a license file yet.
+The Android app doesn't have a license file yet.
 
 That's the whole thing. Got a question or found a bug? Open an issue and tell me your Galaxy model number and One UI version. The more context you give, the easier it is to help.
