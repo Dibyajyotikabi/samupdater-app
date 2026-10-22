@@ -1,0 +1,1 @@
+Build fix for F-Droid and IzzyOnDroid: removed the Google dependency metadata block from the APK and pinned the Gradle wrapper checksum. No app changes.

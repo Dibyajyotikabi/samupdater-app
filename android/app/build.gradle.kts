@@ -22,8 +22,8 @@ android {
         applicationId = "com.samupdater.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.0.1"
         buildConfigField("String", "SITE_BASE_URL", "\"https://samupdater.com/\"")
     }
 
@@ -59,6 +59,11 @@ android {
     }
     testOptions {
         unitTests.isReturnDefaultValues = true
+    }
+    // Keep Google's encrypted dependency metadata out of the APK and bundle (IzzyOnDroid / F-Droid).
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
     }
 }
 
