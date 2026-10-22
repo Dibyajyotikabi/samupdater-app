@@ -1,0 +1,1 @@
+First public release. Device, Updates, Beta and Watchlist tabs, background update alerts, home screen widget, firmware decoder and News and guides.

@@ -1,0 +1,22 @@
+Sam Updater tells you when a new firmware build is out for your Samsung Galaxy phone or tablet. It covers stable One UI updates, One UI beta builds and the test builds Samsung's update server lists before anything goes public.
+
+The app only reads update data. It doesn't download or install firmware. To update your phone, you still use Settings > Software update > Download and install.
+
+What you get:
+
+<ul>
+<li>Device tab with the newest stable build for your model and region, plus the security patch date and release notes</li>
+<li>Rollout by region, with the build and patch each region is on</li>
+<li>Beta and test builds, decoded where possible, so you can see whether anything newer than your stable build exists</li>
+<li>A watchlist, so you can follow a family member's Galaxy or a tablet next to your own phone</li>
+<li>Background checks about every 8 hours, with separate alerts for stable updates, One UI betas and test builds</li>
+<li>A home screen widget that shows your installed build next to the latest one</li>
+<li>A firmware decoder. Type a build number like S938BXXU4BYJ2 and it explains each part</li>
+<li>News and guides from samupdater.com inside the app</li>
+</ul>
+
+On a Galaxy, the app reads your model on its own. On any other phone, pick your model and enter your CSC, the three-character region code like INS or EUX.
+
+There are no ads, no trackers and no accounts. The app talks to Samsung's public firmware server and to samupdater.com for the news feed, and nothing else.
+
+Sam Updater is an independent project. It isn't made by, endorsed by or affiliated with Samsung.
