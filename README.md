@@ -109,6 +109,8 @@ Sam Updater is an independent project. It isn't made by, endorsed by or affiliat
 
 ## License
 
-The Android app doesn't have a license file yet.
+The Android app is free software under the GNU General Public License v3.0. You can use, study, change and share it. If you share a modified version, it has to stay under the same license with its source code. Read the full text in [LICENSE](LICENSE).
+
+The WordPress plugin in `wordpress-plugin/` keeps its own GPL-2.0-or-later license, as its header says.
 
 That's the whole thing. Got a question or found a bug? Open an issue and tell me your Galaxy model number and One UI version. The more context you give, the easier it is to help.
