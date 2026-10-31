@@ -8,6 +8,18 @@ Sam Updater is a free Android app that tells you when a new firmware build is ou
 
 More guides and trackers live on [samupdater.com](https://samupdater.com/).
 
+## Related guides on samupdater.com
+
+The app tells you what's out. These guides help with the rest:
+
+- [Check your security patch level on a Galaxy](https://samupdater.com/check-security-patch-level-samsung-galaxy/), and use the [online update checker](https://samupdater.com/latest-security-update-checker/) to compare it with the newest build
+- [Samsung firmware version numbers explained](https://samupdater.com/samsung-firmware-version-explained/), which decodes the same build numbers as the app's Firmware decoder
+- [How to check your CSC code](https://samupdater.com/check-csc-code-samsung-galaxy/), which you need when you pick a device in the app
+- [One UI 9 update tracker](https://samupdater.com/one-ui-9-update-tracker/) and [One UI 9 device list](https://samupdater.com/one-ui-9-device-list/)
+- [Samsung update policy by model](https://samupdater.com/samsung-update-policy/)
+- [One UI 9 update not showing?](https://samupdater.com/one-ui-9-update-not-showing/) and [Samsung "Couldn't install update" fixes](https://samupdater.com/samsung-couldnt-install-update/)
+- Flashing manually: [download Samsung firmware with Frija](https://samupdater.com/use-frija-tool-to-download-samsung-stock-firmware/), [get Odin 3.14.4](https://samupdater.com/download-latest-odin-flash-tool-v3-14-4/), and [pick CSC or HOME_CSC](https://samupdater.com/csc-or-home-csc-which-csc-file-should-you-flash-in-odin-for-samsung/)
+
 ## Screenshots
 
 |  |  |  |
